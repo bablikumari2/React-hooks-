@@ -5,6 +5,7 @@ import Propdiling from './Hooks/Props-diling/prop-diling';
 import Contexts from './Hooks/useContext/UseContext';
 import Counter from './counter/Counter';
 import Fech from './APi/Fech';
+import User from './interview/User';
 function App() {
   return (
     <div className="App">
@@ -12,7 +13,8 @@ function App() {
       {/* <Propdiling/> */}
       {/* <Contexts/> */}
       {/* <Counter/> */}
-      <Fech/>
+      {/* <Fech/> */}
+      <User/>
     </div>
   );
 }
